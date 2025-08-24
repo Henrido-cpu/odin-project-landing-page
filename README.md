@@ -17,8 +17,13 @@ Worries?
 After completion:
 What skills were needed for completing the project:
 
+* A basic understanding of html, css and flexbox foundations. I started by putting a lot of thought into the initial page structure and how i should arrange the containers in html and it helped out a lot with the css and flexbox parts.
+
 
 Problems?
+
+* I didn't really have any great difficulties, but i did worry very much about my code being more complicated than it could be, but after i started with the css i saw that my html structure actually helped me after all, because i added containers for most parts, so laying down the elements to their right places was easier. Actually most of my concerns centered around my class names, because it was hard to figure out how to make simple but descriptive class names, but i got through the struggle.
+
 
 
 
