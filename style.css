@@ -9,14 +9,15 @@ body{
     height:100vh;
     display:flex;
     flex-direction:column;
-
 }
 
 .header{
-    background: rgb(99, 206, 99);
+    background: rgb(45, 90, 45);
     display:flex;
     justify-content: center;
     padding:20px;
+    color:white;
+    flex:1;
 }
 
 
@@ -38,7 +39,7 @@ body{
     margin-top: 10px;
 }
 
-.hero button:hover{
+button:hover{
     color:grey;
     cursor:pointer;
 }
@@ -67,7 +68,7 @@ h1{
 .pre-header{
     display:flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .logo{
@@ -95,5 +96,115 @@ a:hover{
 
 .links ul{
     display:flex;
-    gap:20px;
+    gap:40px;
 }
+
+.content{
+    flex:1;
+}
+
+.content .container{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    text-align:center;
+    gap:40px;
+    margin: 30px 0;
+    padding:80px;
+}
+
+.cards{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+}
+
+.card p{
+    margin-top:5px;
+    font-size: 20px;
+}
+
+.content img{
+    width:200px;
+    height:auto;
+    border: 10px solid green;
+    border-radius:15px;
+}
+
+.quote{
+    background: #E5E7EB;
+    display:flex;
+    justify-content:center;
+    flex:1;
+}
+
+.quote .container{
+    width: 850px;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    padding:100px 0;
+}
+
+.quote q{
+    font-size:36px;
+    color: #1F2937;
+}
+
+.author{
+    align-self:flex-end;
+    margin-top:20px;
+}
+
+.footer{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 80px;
+    flex-direction: column;
+}
+
+.footer .container{
+    background: green;
+    padding:30px 130px;
+    border-radius:10px;
+    display:flex;
+    align-items: center;
+    color:white;
+    
+}
+
+h2{
+    font-size:36px;
+}
+
+.footer h2{
+    font-size: 25px;
+}
+
+.footer button{
+    padding: 10px 20px;
+    margin-left:100px;
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 15px;
+    color:white;
+}
+
+.footer button:hover{
+    color: grey;
+    border: 2px solid grey;
+}
+
+.footer-info{
+    background: rgb(45, 90, 45);
+    margin-top: 80px;
+    display:flex;
+    width:100vw;
+    justify-content: center;
+    padding:20px;
+    color:white;
+}
+
